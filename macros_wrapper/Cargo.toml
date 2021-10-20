@@ -1,0 +1,13 @@
+[package]
+name = "macros_wrapper"
+version = "0.1.0"
+authors = ["Francesco Ruta <francescoruta.99@gmail.com>"]
+edition = "2018"
+
+[lib]
+
+[dependencies]
+macros = { path = "../macros" }
+parser = { path = "../parser" }
+shared = { path = "../shared" }
+lexer = { path = "../lexer" }
